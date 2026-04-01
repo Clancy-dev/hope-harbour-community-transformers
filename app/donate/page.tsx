@@ -227,7 +227,7 @@ export default function Donate() {
                   </span>
                 </summary>
                 <p className="text-muted-foreground mt-4 leading-relaxed">
-                  Yes, Hope Harbour Community Transformers Ltd is a registered NGO. For information about tax deductions, please consult your local tax regulations or contact us directly.
+                  Yes, Hope Harbor Community Transformers Ltd is a registered NGO. For information about tax deductions, please consult your local tax regulations or contact us directly.
                 </p>
               </details>
 
@@ -251,7 +251,7 @@ export default function Donate() {
                   </span>
                 </summary>
                 <p className="text-muted-foreground mt-4 leading-relaxed">
-                  Yes! Recurring donations provide steady support for our programs. Contact us at hopeharbourcommunity@gmail.com to set up monthly or quarterly giving.
+                  Yes! Recurring donations provide steady support for our programs. Contact us at hopeharborcommunity@gmail.com to set up monthly or quarterly giving.
                 </p>
               </details>
 
@@ -274,7 +274,7 @@ export default function Donate() {
         <section 
           className="relative py-16 sm:py-20 bg-cover bg-center"
           style={{
-            backgroundImage: 'url("https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&q=80")',
+            backgroundImage: 'url("/help.jpg")',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}

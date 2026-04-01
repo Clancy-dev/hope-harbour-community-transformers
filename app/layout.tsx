@@ -7,8 +7,8 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Hope Harbour Community Transformers - Empowering Communities',
-  description: 'Hope Harbour Community Transformers Ltd is dedicated to transforming lives through community development, health, education, and economic empowerment across Uganda.',
+  title: 'Hope Harbor Community Transformers - Empowering Communities',
+  description: 'Hope Harbor Community Transformers Ltd is dedicated to transforming lives through community development, health, education, and economic empowerment across Uganda.',
   generator: 'v0.app',
   icons: {
     icon: [
