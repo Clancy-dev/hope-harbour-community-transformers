@@ -23,6 +23,13 @@ export default function About() {
       image: '/joyce.jpeg',
       bio: 'Joyce brings deep expertise in program management and community engagement. He oversees the execution of all initiatives, ensuring maximum impact and accountability across all communities we serve.',
     },
+     {
+      name: 'Nabiryo Barbara',
+      position: 'Founder',
+      role: 'Program Manager',
+      image: '/nabiryo.jpeg',
+      bio: 'A highly experienced professional with over 15 years in research, program implementation, and capacity building within health and community development, including HIV and cancer programs. Skilled in quantitative and qualitative research, SOP design, training, mentorship, and community engagement, she brings a dedicated, integrity-driven approach to improving service delivery and building strong teams',
+    },
   ]
 
   const values = [
@@ -78,10 +85,21 @@ export default function About() {
       <Header />
       <main className="min-h-screen">
         {/* Hero Section */}
-        <section className="bg-primary text-primary-foreground py-16 sm:py-20">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h1 className="text-4xl sm:text-5xl font-bold mb-4">About Hope Harbour</h1>
-            <p className="text-lg opacity-90">
+        <section 
+          className="relative py-16 sm:py-20 bg-cover bg-center"
+          style={{
+            backgroundImage: 'url("/community 3.jpg")',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+          }}
+        >
+          {/* Green overlay */}
+          <div className="absolute inset-0 bg-primary opacity-75"></div>
+          
+          {/* Content */}
+          <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 className="text-4xl sm:text-5xl font-bold mb-4 text-primary-foreground">About Hope Harbor</h1>
+            <p className="text-lg opacity-90 text-primary-foreground">
               Our journey transforming lives and building prosperous communities across Uganda
             </p>
           </div>
@@ -95,7 +113,7 @@ export default function About() {
                 Who We Are
               </h2>
               <p className="text-lg text-muted-foreground mb-4 leading-relaxed">
-                <strong>Hope Harbour Community Transformers Ltd</strong> is an independent, non-governmental, non-profit organization working across Uganda to address socio-economic and physical challenges that limit community development.
+                <strong>Hope Harbor Community Transformers Ltd</strong> is an independent, non-governmental, non-profit organization working across Uganda to address socio-economic and physical challenges that limit community development.
               </p>
               <p className="text-lg text-muted-foreground mb-4 leading-relaxed">
                 Founded in 2026, we are committed to improving people's lives while fostering sustainable development through evidence-based interventions, community engagement, and strategic partnerships.

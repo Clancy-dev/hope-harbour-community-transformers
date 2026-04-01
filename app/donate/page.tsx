@@ -71,11 +71,22 @@ export default function Donate() {
       <Header />
       <main className="min-h-screen">
         {/* Hero Section */}
-        <section className="bg-primary text-primary-foreground py-16 sm:py-20">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <Heart className="w-16 h-16 mx-auto mb-6" />
-            <h1 className="text-4xl sm:text-5xl font-bold mb-4">Make a Difference</h1>
-            <p className="text-lg opacity-90">
+        <section 
+          className="relative py-16 sm:py-20 bg-cover bg-center"
+          style={{
+            backgroundImage: 'url("/donation image.jpg")',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+          }}
+        >
+          {/* Green overlay */}
+          <div className="absolute inset-0 bg-primary opacity-75"></div>
+          
+          {/* Content */}
+          <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <Heart className="w-16 h-16 mx-auto mb-6 text-primary-foreground" />
+            <h1 className="text-4xl sm:text-5xl font-bold mb-4 text-primary-foreground">Make a Difference</h1>
+            <p className="text-lg opacity-90 text-primary-foreground">
               Your generosity fuels community transformation. Support our mission to empower lives across Uganda.
             </p>
           </div>
@@ -159,45 +170,18 @@ export default function Donate() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            {/* Bank Transfer */}
-            <div className="bg-white rounded-xl p-8 shadow-lg border border-border">
-              <h3 className="text-2xl font-bold text-foreground mb-6">
-                Bank Transfer
-              </h3>
-              <div className="space-y-4 text-muted-foreground">
-                <div>
-                  <p className="font-semibold text-foreground">Bank Name</p>
-                  <p>Bank of Uganda / Stanbic Bank</p>
-                </div>
-                <div>
-                  <p className="font-semibold text-foreground">Account Name</p>
-                  <p>Hope Harbour Community Transformers Ltd</p>
-                </div>
-                <div>
-                  <p className="font-semibold text-foreground">Account Number</p>
-                  <p className="font-mono">1234567890</p>
-                </div>
-              </div>
-              <button className="w-full bg-primary text-primary-foreground py-3 rounded-lg font-bold hover:opacity-90 transition mt-8">
-                Get More Details
-              </button>
-            </div>
+          <div className="grid grid-cols-1  gap-8 max-w-2xl mx-auto">
 
             {/* Mobile Money */}
             <div className="bg-white rounded-xl p-8 shadow-lg border border-border">
-              <h3 className="text-2xl font-bold text-foreground mb-6">
+              <h3 className="text-2xl font-bold text-foreground flex items-center justify-center mb-6">
                 Mobile Money
               </h3>
-              <div className="space-y-4 text-muted-foreground">
-                <div>
+              <div className="space-y-4 text-muted-foreground flex items-center justify-center flex-col">
                   <p className="font-semibold text-foreground">MTN Money</p>
                   <p>+256 701 640 853</p>
-                </div>
-                <div>
-                  <p className="font-semibold text-foreground">Airtel Money</p>
-                  <p>+256 772 498 265</p>
-                </div>
+              
+                
                 <div className="pt-4 border-t border-border">
                   <p className="text-sm">
                     Quick and secure mobile money transfers available 24/7
@@ -287,12 +271,23 @@ export default function Donate() {
         </section>
 
         {/* Call to Action */}
-        <section className="bg-primary text-primary-foreground py-16 sm:py-20">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="text-3xl sm:text-4xl font-bold mb-4">
+        <section 
+          className="relative py-16 sm:py-20 bg-cover bg-center"
+          style={{
+            backgroundImage: 'url("https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&q=80")',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+          }}
+        >
+          {/* Green overlay */}
+          <div className="absolute inset-0 bg-primary opacity-75"></div>
+          
+          {/* Content */}
+          <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-primary-foreground">
               Ready to Make an Impact?
             </h2>
-            <p className="text-lg opacity-90 mb-8">
+            <p className="text-lg opacity-90 mb-8 text-primary-foreground">
               Every donation, no matter the size, contributes to transforming lives and building prosperous communities.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

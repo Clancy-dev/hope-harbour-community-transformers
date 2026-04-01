@@ -8,7 +8,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           {/* Organization Info */}
           <div>
-            <h3 className="font-bold text-lg mb-4">Hope Harbour Community</h3>
+            <h3 className="font-bold text-lg mb-4">Hope Harbor Community</h3>
             <p className="text-sm opacity-90 mb-4">
               Transforming lives through community empowerment and sustainable development in Uganda.
             </p>
@@ -48,7 +48,7 @@ export function Footer() {
               <li className="flex items-start gap-2">
                 <Mail size={18} className="mt-0.5 flex-shrink-0" />
                 <a href="mailto:hopeharbourcommunity@gmail.com" className="hover:opacity-80 transition break-all">
-                  hopeharbourcommunity@gmail.com
+                  hopeharborcommunity@gmail.com
                 </a>
               </li>
               <li className="flex items-start gap-2">
@@ -78,15 +78,8 @@ export function Footer() {
         {/* Divider */}
         <div className="border-t border-white/20 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm opacity-75">
-            <p>&copy; {new Date().getFullYear()} Hope Harbour Community Transformers Ltd. All rights reserved.</p>
-            <div className="flex gap-6">
-              <Link href="#" className="hover:opacity-100 transition">
-                Privacy Policy
-              </Link>
-              <Link href="#" className="hover:opacity-100 transition">
-                Terms of Service
-              </Link>
-            </div>
+            <p>&copy; {new Date().getFullYear()} Hope Harbor Community Transformers Ltd. All rights reserved.</p>
+            
           </div>
         </div>
       </div>

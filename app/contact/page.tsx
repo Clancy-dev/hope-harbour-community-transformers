@@ -9,7 +9,7 @@ export default function Contact() {
     {
       icon: Mail,
       title: 'Email',
-      details: 'hopeharbourcommunity@gmail.com',
+      details: 'hopeharborcommunity@gmail.com',
       link: 'mailto:hopeharbourcommunity@gmail.com',
     },
     {
@@ -37,10 +37,21 @@ export default function Contact() {
       <Header />
       <main className="min-h-screen">
         {/* Hero Section */}
-        <section className="bg-primary text-primary-foreground py-16 sm:py-20">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h1 className="text-4xl sm:text-5xl font-bold mb-4">Get in Touch</h1>
-            <p className="text-lg opacity-90">
+        <section 
+          className="relative py-16 sm:py-20 bg-cover bg-center"
+          style={{
+            backgroundImage: 'url("/contact.jpg")',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+          }}
+        >
+          {/* Green overlay */}
+          <div className="absolute inset-0 bg-primary opacity-75"></div>
+          
+          {/* Content */}
+          <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 className="text-4xl sm:text-5xl font-bold mb-4 text-primary-foreground">Get in Touch</h1>
+            <p className="text-lg opacity-90 text-primary-foreground">
               We'd love to hear from you. Reach out with any questions or partnership inquiries.
             </p>
           </div>

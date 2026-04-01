@@ -8,7 +8,11 @@ export default function Home() {
   const carouselSlides = [
     { src: '/carousel-1.jpg', alt: 'Community water and sanitation initiatives' },
     { src: '/carousel-2.jpg', alt: 'Sustainable agriculture programs' },
+    { src: '/seventh.jpg', alt: 'Women planting crops' },
     { src: '/carousel-3.jpg', alt: 'Girls education and mentorship' },
+    { src: '/fourth.jpg', alt: 'Girls get education and mentorship' },
+    { src: '/fifth.jpg', alt: 'children mentorship' },
+
   ]
 
   const initiatives = [
@@ -63,7 +67,7 @@ export default function Home() {
               Transforming Lives, Building Futures
             </h1>
             <p className="text-lg sm:text-xl text-white/90 max-w-2xl mb-8 text-balance">
-              Hope Harbour Community Transformers is dedicated to empowering communities across Uganda through sustainable development and transformative change.
+              Hope Harbor Community Transformers is dedicated to empowering communities across Uganda through sustainable development and transformative change.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link

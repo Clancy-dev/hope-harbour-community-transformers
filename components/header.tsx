@@ -22,7 +22,7 @@ export function Header() {
        <div className="hidden sm:block bg-primary text-primary-foreground text-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 flex justify-center items-center gap-6">
           <a href="mailto:hopeharbourcommunity@gmail.com" className="hover:opacity-90 transition">
-            hopeharbourcommunity@gmail.com
+            hopeharborcommunity@gmail.com
           </a>
           <span>•</span>
           <span>+256 701 640 853</span>
