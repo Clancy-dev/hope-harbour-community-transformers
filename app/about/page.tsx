@@ -90,7 +90,7 @@ export default function About() {
       // position: 'Founder',
       role: 'Program Personnel',
       image: '/nabiryo.jpeg',
-      bio: 'A highly experienced professional with over 15 years in research, program implementation, and capacity building within health and community development, including HIV and cancer programs. Skilled in quantitative and qualitative research, SOP design, training, mentorship, and community engagement, she brings a dedicated, integrity-driven approach to improving service delivery and building strong teams',
+      bio: 'A highly experienced professional with over 15 years in research, program implementation, and capacity building within health and community development, including HIV and cancer programs. Skilled in quantitative and qualitative research, SOP design, training, mentorship, and community engagement, she brings a dedicated, integrity-driven approach to improving service delivery and building strong teams.',
     },
   ]
 
