@@ -21,7 +21,7 @@ export function Header() {
       {/* Top Bar */}
        <div className="hidden sm:block bg-primary text-primary-foreground text-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 flex justify-center items-center gap-6">
-          <a href="mailto:hopeharbourcommunity@gmail.com" className="hover:opacity-90 transition">
+          <a href="mailto:hopeharborcommunity@gmail.com" className="hover:opacity-90 transition">
             hopeharborcommunity@gmail.com
           </a>
           <span>•</span>
@@ -40,7 +40,7 @@ export function Header() {
               <div className="w-40 h-20">
                 <Image
                   src="/logo.png"
-                  alt="Hope Harbour Community Transformers"
+                  alt="Hope Harbor Community Transformers"
                   className="w-full h-full object-contain"
                   width={1000}
                   height={500}

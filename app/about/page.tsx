@@ -3,7 +3,7 @@ import { Footer } from '@/components/footer'
 import Image from 'next/image'
 
 export const metadata = {
-  title: 'About Us - Hope Harbour Community Transformers',
+  title: 'About Us - Hope Harbor Community Transformers',
   description: 'Learn about our mission, vision, and the dedicated team transforming communities across Uganda.',
 }
 

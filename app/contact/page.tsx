@@ -10,7 +10,7 @@ export default function Contact() {
       icon: Mail,
       title: 'Email',
       details: 'hopeharborcommunity@gmail.com',
-      link: 'mailto:hopeharbourcommunity@gmail.com',
+      link: 'mailto:hopeharborcommunity@gmail.com',
     },
     {
       icon: Phone,
