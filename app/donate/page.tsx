@@ -4,8 +4,69 @@ import { Heart, Users, Droplet, Leaf, BookOpen, Zap } from 'lucide-react'
 import Link from 'next/link'
 
 export const metadata = {
-  title: 'Donate - Hope Harbor Community Transformers',
-  description: 'Support our mission to transform communities. Your donation makes a real impact.',
+  title: 'Donate to Hopeharbor Community Transformers | Support Communities in Uganda',
+
+  description:
+    'Donate to Hopeharbor Community Transformers Ltd and help transform lives across Uganda. Support clean water, education, healthcare, women empowerment, and sustainable community development. Your contribution creates real impact.',
+
+  keywords: [
+    'Donate Uganda NGO',
+    'Hopeharbor Community Transformers donation',
+    'Support communities Uganda',
+    'Donate to charity Uganda',
+    'NGO donations Uganda',
+    'Help poor communities Uganda',
+    'Women empowerment donation Uganda',
+    'Support education Uganda NGO',
+    'Clean water projects Uganda donate',
+    'Health programs Uganda donation',
+    'Charity organizations Uganda donate',
+    'Hope Harbor donation Uganda',
+    'Africa NGO donations',
+    'Community development donations Africa',
+  ],
+
+  openGraph: {
+    title: 'Support Hopeharbor Community Transformers',
+    description:
+      'Make a difference by donating to Hopeharbor Community Transformers. Your support provides clean water, education, healthcare, and economic opportunities in Uganda.',
+    url: 'https://hopeharborcommunitytransformers.org/donate', // replace
+    siteName: 'Hopeharbor Community Transformers',
+    images: [
+      {
+        url: '/donation image.jpg', // ⚠️ rename your image
+        width: 1200,
+        height: 630,
+        alt: 'Donate to Hopeharbor Community Transformers Uganda',
+      },
+    ],
+    locale: 'en_UG',
+    type: 'website',
+  },
+
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Donate to Hopeharbor Community Transformers',
+    description:
+      'Support life-changing programs in Uganda. Every donation creates real impact.',
+    images: ['/donation image.jpg'],
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
+
+  alternates: {
+    canonical: 'https://hopeharborcommunitytransformers.org/donate', // replace
+  },
+
+  other: {
+    'geo.region': 'UG',
+    'geo.placename': 'Uganda',
+    'geo.position': '0.3476;32.5825',
+    'ICBM': '0.3476, 32.5825',
+  },
 }
 
 export default function Donate() {
@@ -228,7 +289,7 @@ export default function Donate() {
                   </span>
                 </summary>
                 <p className="text-muted-foreground mt-4 leading-relaxed">
-                  Yes, Hope Harbor Community Transformers Ltd is a registered NGO. For information about tax deductions, please consult your local tax regulations or contact us directly.
+                  Yes, Hopeharbor Community Transformers Ltd is a registered NGO. For information about tax deductions, please consult your local tax regulations or contact us directly.
                 </p>
               </details>
 

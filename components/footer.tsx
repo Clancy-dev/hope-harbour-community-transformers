@@ -8,7 +8,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           {/* Organization Info */}
           <div>
-            <h3 className="font-bold text-lg mb-4">Hope Harbor Community</h3>
+            <h3 className="font-bold text-lg mb-4">Hopeharbor Community</h3>
             <p className="text-sm opacity-90 mb-4">
               Transforming lives through community empowerment and sustainable development in Uganda.
             </p>
@@ -78,7 +78,7 @@ export function Footer() {
         {/* Divider */}
         <div className="border-t border-white/20 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm opacity-75">
-            <p>&copy; {new Date().getFullYear()} Hope Harbor Community Transformers Ltd. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Hopeharbor Community Transformers Ltd. All rights reserved.</p>
             
           </div>
         </div>

@@ -40,7 +40,7 @@ export function Header() {
               <div className="w-40 h-20">
                 <Image
                   src="/logo.png"
-                  alt="Hope Harbor Community Transformers"
+                  alt="Hopeharbor Community Transformers"
                   className="w-full h-full object-contain"
                   width={1000}
                   height={500}

@@ -8,17 +8,21 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {
-    default: 'Hope Harbor Community Transformers Ltd | NGO in Uganda',
-    template: '%s | Hope Harbor Community Transformers',
+    default: 'Hopeharbor Community Transformers Ltd | Serving together, Transforming lives',
+    template: '%s | Hopeharbor Community Transformers',
   },
 
   description:
-    'Hope Harbor Community Transformers Ltd is a non-profit organization in Uganda focused on community development, health, education, climate action, gender equality, and economic empowerment. We transform lives through sustainable programs and partnerships.',
+    'Hopeharbor Community Transformers Ltd is a non-profit organization in Uganda focused on community development, health, education, climate action, gender equality, and economic empowerment. We transform lives through sustainable programs and partnerships.',
 
   keywords: [
+    'Hopeharbor Community Transformers',
     'Hope Harbor Community Transformers',
+    'Hopeharbor Community Transformers Ltd',
     'Hope Harbor Community Transformers Ltd',
+    'Hopeharbor',
     'Hope Harbor',
+    'Hopeharbor Community',
     'Hope Harbor Community',
     'NGO in Uganda',
     'Non-profit organizations Uganda',
@@ -36,24 +40,24 @@ export const metadata: Metadata = {
     'Community transformation Africa',
   ],
 
-  authors: [{ name: 'Hope Harbor Community Transformers Ltd' }],
-  creator: 'Hope Harbor Community Transformers Ltd',
-  publisher: 'Hope Harbor Community Transformers Ltd',
+  authors: [{ name: 'Hopeharbor Community Transformers Ltd' }],
+  creator: 'Hopeharbor Community Transformers Ltd',
+  publisher: 'Hopeharbor Community Transformers Ltd',
 
-  metadataBase: new URL('https://hopeharborcommunitytransformers.org/'), // ⚠️ replace with your real domain
+  metadataBase: new URL('https://hopeharborcommunitytransformers.org'), // ⚠️ replace with your real domain
 
   openGraph: {
-    title: 'Hope Harbor Community Transformers Ltd',
+    title: 'Hopeharbor Community Transformers Ltd',
     description:
       'Transforming communities across Uganda through health, education, economic empowerment, and sustainable development initiatives.',
-    url: 'https://hopeharborcommunitytransformers.org/',
-    siteName: 'Hope Harbor Community Transformers',
+    url: 'https://hopeharborcommunitytransformers.org',
+    siteName: 'Hopeharbor Community Transformers',
     images: [
       {
         url: '/hero-bg.jpg', // hero image
         width: 1200,
         height: 630,
-        alt: 'Hope Harbor Community Transformers Uganda',
+        alt: 'Hopeharbor Community Transformers Uganda',
       },
     ],
     locale: 'en_UG',
@@ -62,7 +66,7 @@ export const metadata: Metadata = {
 
   twitter: {
     card: 'summary_large_image',
-    title: 'Hope Harbor Community Transformers Ltd',
+    title: 'Hopeharbor Community Transformers Ltd',
     description:
       'Empowering communities in Uganda through sustainable development, health, and economic programs.',
     images: ['/hero-bg.jpg'],

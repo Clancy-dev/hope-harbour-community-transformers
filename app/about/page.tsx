@@ -3,8 +3,70 @@ import { Footer } from '@/components/footer'
 import Image from 'next/image'
 
 export const metadata = {
-  title: 'About Us - Hope Harbor Community Transformers',
-  description: 'Learn about our mission, vision, and the dedicated team transforming communities across Uganda.',
+  title: 'About Hopeharbor Community Transformers | NGO in Uganda',
+
+  description:
+    'Learn about Hopeharbor Community Transformers Ltd, a non-profit organization in Uganda dedicated to transforming communities through health, education, economic empowerment, climate action, and gender equality. Meet our leadership team and discover our mission, vision, and values.',
+
+  keywords: [
+    'About Hopeharbor Community Transformers',
+    'Hopeharbor NGO Uganda',
+    'Non-profit organization Uganda',
+    'Community development Uganda',
+    'NGO leadership Uganda',
+    'Health and sanitation Uganda',
+    'Women empowerment Uganda',
+    'Gender equality Uganda NGO',
+    'Climate action Uganda NGO',
+    'Food security Uganda',
+    'Economic empowerment Uganda',
+    'Human rights Uganda NGO',
+    'Charity organizations Uganda',
+    'Development organizations Africa',
+    'Hope Harbor Uganda NGO',
+  ],
+
+  openGraph: {
+    title: 'About Hopeharbor Community Transformers',
+    description:
+      'Discover the mission, vision, and leadership behind Hopeharbor Community Transformers, transforming lives across Uganda through sustainable community programs.',
+    url: 'https://hopeharborcommunitytransformers.org/about', // replace with real domain
+    siteName: 'Hopeharbor Community Transformers',
+    images: [
+      {
+        url: '/community 3.jpg', // ⚠️ rename your image
+        width: 1200,
+        height: 630,
+        alt: 'Hopeharbor Community Transformers Uganda',
+      },
+    ],
+    locale: 'en_UG',
+    type: 'article',
+  },
+
+  twitter: {
+    card: 'summary_large_image',
+    title: 'About Hopeharbor Community Transformers',
+    description:
+      'Meet the team and learn how Hopeharbor Community Transformers is empowering communities across Uganda.',
+    images: ['/community 3.jpg'],
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
+
+  alternates: {
+    canonical: 'https://hopeharborcommunitytransformers.org/about', // replace
+  },
+
+  other: {
+    'geo.region': 'UG',
+    'geo.placename': 'Uganda',
+    'geo.position': '0.3476;32.5825',
+    'ICBM': '0.3476, 32.5825',
+  },
 }
 
 export default function About() {
@@ -98,7 +160,7 @@ export default function About() {
           
           {/* Content */}
           <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h1 className="text-4xl sm:text-5xl font-bold mb-4 text-primary-foreground">About Hope Harbor</h1>
+            <h1 className="text-4xl sm:text-5xl font-bold mb-4 text-primary-foreground">About Hopeharbor</h1>
             <p className="text-lg opacity-90 text-primary-foreground">
               Our journey transforming lives and building prosperous communities across Uganda
             </p>
@@ -113,7 +175,7 @@ export default function About() {
                 Who We Are
               </h2>
               <p className="text-lg text-muted-foreground mb-4 leading-relaxed">
-                <strong>Hope Harbor Community Transformers Ltd</strong> is an independent, non-governmental, non-profit organization working across Uganda to address socio-economic and physical challenges that limit community development.
+                <strong>Hopeharbor Community Transformers Ltd</strong> is an independent, non-governmental, non-profit organization working across Uganda to address socio-economic and physical challenges that limit community development.
               </p>
               <p className="text-lg text-muted-foreground mb-4 leading-relaxed">
                 Founded in 2026, we are committed to improving people's lives while fostering sustainable development through evidence-based interventions, community engagement, and strategic partnerships.

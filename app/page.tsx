@@ -67,7 +67,7 @@ export default function Home() {
               Transforming Lives, Building Futures
             </h1>
             <p className="text-lg sm:text-xl text-white/90 max-w-2xl mb-8 text-balance">
-              Hope Harbor Community Transformers is dedicated to empowering communities across Uganda through sustainable development and transformative change.
+              Hopeharbor Community Transformers is dedicated to empowering communities across Uganda through sustainable development and transformative change.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link

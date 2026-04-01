@@ -4,6 +4,68 @@ import { Header } from '@/components/header'
 import { Footer } from '@/components/footer'
 import { Mail, Phone, MapPin, Clock } from 'lucide-react'
 
+export const metadata = {
+  title: 'Contact Hopeharbor Community Transformers | NGO in Uganda',
+
+  description:
+    'Contact Hopeharbor Community Transformers Ltd in Kampala, Uganda. Reach out for partnerships, donations, community programs, or general inquiries. We are available Monday to Friday, 8:00 AM – 5:00 PM.',
+
+  keywords: [
+    'Contact Hopeharbor Community Transformers',
+    'Hopeharbor NGO contact Uganda',
+    'NGO contact Kampala Uganda',
+    'Non profit contact Uganda',
+    'Community development Uganda contact',
+    'Charity organizations Uganda contact',
+    'NGO partnerships Uganda',
+    'Donate Uganda NGO contact',
+    'Hope Harbor Uganda contact',
+    'Development organizations Uganda contact',
+  ],
+
+  openGraph: {
+    title: 'Contact Hopeharbor Community Transformers',
+    description:
+      'Get in touch with Hopeharbor Community Transformers in Uganda for partnerships, donations, and community initiatives.',
+    url: 'https://hopeharborcommunitytransformers.org/contact', // replace with your real domain
+    siteName: 'Hopeharbor Community Transformers',
+    images: [
+      {
+        url: '/contact.jpg', // ⚠️ rename your image
+        width: 1200,
+        height: 630,
+        alt: 'Contact Hopeharbor Community Transformers Uganda',
+      },
+    ],
+    locale: 'en_UG',
+    type: 'website',
+  },
+
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Contact Hopeharbor Community Transformers',
+    description:
+      'Reach out to Hopeharbor Community Transformers for partnerships, support, and inquiries in Uganda.',
+    images: ['/contact.jpg'],
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
+
+  alternates: {
+    canonical: 'https://hopeharborcommunitytransformers.org/contact', // replace
+  },
+
+  other: {
+    'geo.region': 'UG',
+    'geo.placename': 'Kampala',
+    'geo.position': '0.3476;32.5825',
+    'ICBM': '0.3476, 32.5825',
+  },
+}
+
 export default function Contact() {
   const contactInfo = [
     {
