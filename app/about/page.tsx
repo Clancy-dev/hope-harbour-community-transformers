@@ -83,12 +83,12 @@ export default function About() {
       position: 'Founder',
       role: 'Implementation & Partnerships',
       image: '/joyce.jpeg',
-      bio: 'Joyce brings deep expertise in program management and community engagement. He oversees the execution of all initiatives, ensuring maximum impact and accountability across all communities we serve.',
+      bio: 'Joyce brings deep expertise in program management and community engagement. She oversees the execution of all initiatives, ensuring maximum impact and accountability across all communities we serve.',
     },
      {
       name: 'Nabiryo Barbara',
-      position: 'Founder',
-      role: 'Program Manager',
+      // position: 'Founder',
+      role: 'Program Personnel',
       image: '/nabiryo.jpeg',
       bio: 'A highly experienced professional with over 15 years in research, program implementation, and capacity building within health and community development, including HIV and cancer programs. Skilled in quantitative and qualitative research, SOP design, training, mentorship, and community engagement, she brings a dedicated, integrity-driven approach to improving service delivery and building strong teams',
     },
@@ -286,6 +286,93 @@ export default function About() {
     ))}
   </div>
 </section>
+
+        {/* Community Visit Section */}
+        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            {/* Image Side */}
+            <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+              <Image
+                src="/activity.jpeg"
+                alt="Our leadership team engaging with community members in Uganda"
+                width={960}
+                height={1280}
+                className="w-full h-auto object-cover"
+                priority
+              />
+              {/* Gradient overlay for depth */}
+              <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-transparent opacity-30 pointer-events-none"></div>
+            </div>
+
+            {/* Content Side */}
+            <div className="space-y-6">
+              <div>
+                <h2 className="text-4xl sm:text-5xl font-bold text-foreground mb-4 leading-tight">
+                  Our Connection to Communities
+                </h2>
+                <p className="text-xl text-muted-foreground leading-relaxed">
+                  We don&apos;t just work for communities—we work <span className="font-semibold text-primary">with</span> them. Our leadership and team spend time on the ground, listening to voices, understanding challenges, and co-creating solutions.
+                </p>
+              </div>
+
+              <div className="space-y-4">
+                <div className="flex gap-4">
+                  <div className="flex-shrink-0">
+                    <div className="flex items-center justify-center h-10 w-10 rounded-lg bg-primary/10">
+                      <span className="text-primary font-bold">✓</span>
+                    </div>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-foreground mb-1">
+                      Direct Engagement
+                    </h3>
+                    <p className="text-muted-foreground">
+                      We visit communities regularly to understand their needs, celebrate wins, and strengthen relationships.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex gap-4">
+                  <div className="flex-shrink-0">
+                    <div className="flex items-center justify-center h-10 w-10 rounded-lg bg-primary/10">
+                      <span className="text-primary font-bold">✓</span>
+                    </div>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-foreground mb-1">
+                      Collaborative Solutions
+                    </h3>
+                    <p className="text-muted-foreground">
+                      By listening and learning from those we serve, we develop programs that truly address community needs.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex gap-4">
+                  <div className="flex-shrink-0">
+                    <div className="flex items-center justify-center h-10 w-10 rounded-lg bg-primary/10">
+                      <span className="text-primary font-bold">✓</span>
+                    </div>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-foreground mb-1">
+                      Real Impact
+                    </h3>
+                    <p className="text-muted-foreground">
+                      These meaningful connections drive the lasting, transformative change we&apos;re committed to creating.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="mt-8 p-6 bg-primary/5 rounded-xl border border-primary/20">
+                <p className="text-lg text-foreground leading-relaxed italic">
+                  &quot;Real transformation happens when we work alongside the people we serve, not above them. Every visit reminds us why our mission matters.&quot;
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
 
         {/* Key Objectives */}
         <section className="bg-muted py-16 sm:py-20">
