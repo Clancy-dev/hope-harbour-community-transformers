@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     siteName: 'Hope Harbor Community Transformers',
     images: [
       {
-        url: '/community 3.jpg', // hero image
+        url: '/hero-bg.jpg', // hero image
         width: 1200,
         height: 630,
         alt: 'Hope Harbor Community Transformers Uganda',
