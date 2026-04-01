@@ -1,9 +1,10 @@
 import { Header } from '@/components/header'
 import { Footer } from '@/components/footer'
 import { Heart, Users, Droplet, Leaf, BookOpen, Zap } from 'lucide-react'
+import Link from 'next/link'
 
 export const metadata = {
-  title: 'Donate - Hope Harbour Community Transformers',
+  title: 'Donate - Hope Harbor Community Transformers',
   description: 'Support our mission to transform communities. Your donation makes a real impact.',
 }
 
@@ -202,7 +203,7 @@ export default function Donate() {
                 For corporate donations, in-kind contributions, or pledged giving, please reach out directly:
               </p>
               <a
-                href="mailto:hopeharbourcommunity@gmail.com"
+                href="mailto:hopeharborcommunity@gmail.com"
                 className="w-full bg-primary text-primary-foreground py-3 rounded-lg font-bold hover:opacity-90 transition inline-block text-center"
               >
                 Contact Us for More Options
@@ -291,15 +292,15 @@ export default function Donate() {
               Every donation, no matter the size, contributes to transforming lives and building prosperous communities.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-white text-primary px-8 py-3 rounded-lg font-bold hover:bg-primary-foreground transition">
+              <Link href='/donate' className="bg-white text-primary px-8 py-3 rounded-lg font-bold hover:bg-primary-foreground transition">
                 Donate Now
-              </button>
-              <a
-                href="mailto:hopeharbourcommunity@gmail.com"
+              </Link>
+              <link
+                href="mailto:hopeharborcommunity@gmail.com"
                 className="border-2 border-white text-white px-8 py-3 rounded-lg font-bold hover:bg-white/10 transition inline-block"
               >
                 Contact Us
-              </a>
+              </link>
             </div>
           </div>
         </section>
