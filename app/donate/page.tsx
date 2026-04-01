@@ -295,12 +295,12 @@ export default function Donate() {
               <Link href='/donate' className="bg-white text-primary px-8 py-3 rounded-lg font-bold hover:bg-primary-foreground transition">
                 Donate Now
               </Link>
-              <link
+              <a
                 href="mailto:hopeharborcommunity@gmail.com"
                 className="border-2 border-white text-white px-8 py-3 rounded-lg font-bold hover:bg-white/10 transition inline-block"
               >
                 Contact Us
-              </link>
+              </a>
             </div>
           </div>
         </section>
