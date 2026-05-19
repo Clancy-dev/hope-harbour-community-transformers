@@ -140,6 +140,7 @@ export default function About() {
     description:
       "We operate openly and share information with honesty and clarity.",
   },
+
 ];
  
   return (
@@ -374,46 +375,12 @@ export default function About() {
           </div>
         </section>
 
-        {/* Core Strategic Objective */}
-        <section className="bg-gradient-to-r from-primary/10 via-primary/5 to-transparent py-12 sm:py-16 md:py-20 border-b-2 border-primary/30">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="mb-6 sm:mb-8">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-2 text-center">
-                Our Core Strategic Objective
-              </h2>
-              <p className="text-center text-sm sm:text-base text-muted-foreground">The foundation of everything we do</p>
-            </div>
-
-            <div className="max-w-3xl mx-auto">
-              <div className="bg-white rounded-xl sm:rounded-2xl p-6 sm:p-8 md:p-10 border-2 border-primary shadow-lg hover:shadow-xl transition-shadow">
-                <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 items-start">
-                  <div className="text-4xl sm:text-5xl flex-shrink-0">🤝</div>
-                  <div className="w-full">
-                    <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-primary mb-3 sm:mb-4">
-                      Livelihood Improvement
-                    </h3>
-                    <p className="text-sm sm:text-base md:text-lg text-foreground leading-relaxed mb-4 sm:mb-6">
-                      Improve the livelihoods of underprivileged and vulnerable women groups—especially single mothers, teenage pregnant mothers, and women miners in Uganda—through provision of information, skills development, and access to financial and technical support.
-                    </p>
-                    <div className="flex flex-col sm:flex-row flex-wrap gap-2 sm:gap-3 text-xs sm:text-sm text-primary font-semibold">
-                      <span className="inline-flex items-center gap-2">✓ Information & Education</span>
-                      <span className="inline-flex items-center gap-2">✓ Skills Training</span>
-                      <span className="inline-flex items-center gap-2">✓ Financial Access</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Supporting Strategic Objectives */}
+        {/* Key Objectives */}
         <section className="bg-muted py-16 sm:py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4 text-center">
-              Supporting Strategic Objectives
+            <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-12 text-center">
+              Our Strategic Objectives
             </h2>
-            <p className="text-center text-muted-foreground mb-12">Working together to achieve our mission</p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="bg-white rounded-xl p-8 border border-border">
@@ -425,6 +392,20 @@ export default function About() {
                     </h3>
                     <p className="text-muted-foreground">
                       Improve access to quality healthcare services, clean water, sanitation and hygiene for all.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-xl p-8 border border-border md:col-start-2">
+                <div className="flex gap-4">
+                  <div className="text-3xl">🤝</div>
+                  <div>
+                    <h3 className="text-xl font-bold text-foreground mb-2">
+                      Livelihood Improvement
+                    </h3>
+                    <p className="text-muted-foreground">
+                      Improve the livelihoods of underprivileged and vulnearable women groups especially single mothers, teenage pregnant mothers, women miners in Uganda through provisionof information, skills development and access to financial and technical support.
                     </p>
                   </div>
                 </div>
@@ -472,7 +453,7 @@ export default function About() {
                 </div>
               </div>
 
-              <div className="bg-white rounded-xl p-8 border border-border">
+              <div className="bg-white rounded-xl p-8 border border-border md:col-start-2">
                 <div className="flex gap-4">
                   <div className="text-3xl">💰</div>
                   <div>
@@ -486,7 +467,7 @@ export default function About() {
                 </div>
               </div>
 
-              <div className="bg-white rounded-xl p-8 border border-border">
+              <div className="bg-white rounded-xl p-8 border border-border md:col-start-1">
                 <div className="flex gap-4">
                   <div className="text-3xl">📚</div>
                   <div>
@@ -499,6 +480,8 @@ export default function About() {
                   </div>
                 </div>
               </div>
+
+              
             </div>
           </div>
         </section>
