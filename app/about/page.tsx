@@ -387,7 +387,7 @@ export default function About() {
             <div className="max-w-3xl mx-auto">
               <div className="bg-white rounded-xl sm:rounded-2xl p-6 sm:p-8 md:p-10 border-2 border-primary shadow-lg hover:shadow-xl transition-shadow">
                 <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 items-start">
-                  <div className="text-4xl sm:text-5xl flex-shrink-0">🧑‍🌾</div>
+                  <div className="text-4xl sm:text-5xl flex-shrink-0">🤝</div>
                   <div className="w-full">
                     <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-primary mb-3 sm:mb-4">
                       Livelihood Improvement
