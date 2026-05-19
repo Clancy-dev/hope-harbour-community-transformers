@@ -140,6 +140,11 @@ export default function About() {
     description:
       "We operate openly and share information with honesty and clarity.",
   },
+  {
+    title: "Livelihood Improvement",
+    description:
+      "Improve the livelihoods of underprivileged and vulnearable women groups especially single mothers, teenage pregnant mothers, women miners, widows and their families in Uganda through provision of information, skills development and access to financial and technical support.",
+  },
 ];
 
   return (
