@@ -176,13 +176,14 @@ export default function About() {
                 Who We Are
               </h2>
               <p className="text-lg text-muted-foreground mb-4 leading-relaxed">
-                <strong>Hopeharbor Community Transformers Ltd</strong> is an independent, non-governmental, non-profit organization working across Uganda to address socio-economic and physical challenges that limit community development.
+                <strong>Hopeharbor Community Transformers Ltd</strong> is a women founded & women led organisation established in 2023.
               </p>
               <p className="text-lg text-muted-foreground mb-4 leading-relaxed">
-                Founded in 2026, we are committed to improving people's lives while fostering sustainable development through evidence-based interventions, community engagement, and strategic partnerships.
+                We formed because we saw children missing school, children & women lacking access to healthcare, gender inequality holding communities back, families struggling with sustainable livelihoods, climate change threatening our environment & food security.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Our holistic approach addresses multiple interconnected challenges, recognizing that lasting transformation requires work across health, education, economic empowerment, and environmental sustainability.
+                To address these challenges, we work at the intersection of education, health, gender, livelihoods, climate & environment. 
+                <br></br>We offically registered in 2026.
               </p>
             </div>
             <div className="bg-muted rounded-xl p-8">
